@@ -5,7 +5,7 @@ class Shrine
   module Storage
     class Thumbor
       def initialize
-        @thumbor_base_url = 'https://img.uid.is'
+        @thumbor_base_url = 'https://img.example.com'
         @thumbor_api      = "#{@thumbor_base_url}/image"
       end
 
